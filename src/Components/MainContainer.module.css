@@ -1,0 +1,39 @@
+.maincontainer {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid lightgrey;
+    width: 40%;
+    height: 910px;
+    background-color: rgb(247, 245, 242);
+}
+
+.leftcontainer {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 35%;
+    background-color: rgb(216, 215, 215);
+}
+
+.rightcontainer {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10px;
+    width: 65%;
+}
+
+.subContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    border-bottom: 2px solid rgb(167, 167, 167);
+    font-size: 20px;
+}
+
+.subTitle {
+    font-weight: 600;
+}
