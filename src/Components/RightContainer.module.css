@@ -1,0 +1,25 @@
+.rightcontainer {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10px;
+    width: 65%;
+    background-color: whitesmoke;
+}
+
+.subContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    border-bottom: 2px solid rgb(167, 167, 167);
+    font-size: 20px;
+}
+
+.subTitle {
+    font-weight: 600;
+}
+
+.Padding {
+    padding-bottom: 13px;
+}

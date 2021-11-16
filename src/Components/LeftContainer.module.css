@@ -1,0 +1,29 @@
+.title {
+    border-bottom: 2px solid rgb(167, 167, 167);
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+}
+
+.subTitle {
+    font-weight: 600;
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+.leftcontainer {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 35%;
+    background-color: rgb(43, 55, 67);
+    color: whitesmoke;
+}
+
+.subContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.Padding {
+    padding-bottom: 13px;
+}
