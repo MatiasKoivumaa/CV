@@ -1,0 +1,43 @@
+.Home {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    border: 2px solid lightgrey;
+    width: 30%;
+    height: 25%;
+    background-color: rgb(247, 245, 242);
+}
+
+.ButtonContainer {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    column-gap: 40px;
+}
+
+.Buttons {
+    font-size: 21px;
+    font-weight: 600;
+    padding: 10px;
+    border: rgb(132, 180, 196) 3px solid;
+    border-radius: 10px;
+    background-color: rgb(226, 247, 255);
+    cursor: pointer;
+}
+
+.Buttons:hover {
+    background-color: rgb(132, 180, 196);
+}
+
+.Name {
+    font-size: 31px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    border-bottom: 2px solid rgb(94, 94, 94);
+}
