@@ -27,3 +27,43 @@
 .Padding {
     padding-bottom: 13px;
 }
+
+.logoContainer {
+    display: flex;
+    column-gap: 5px;
+}
+
+.logo {
+    font-size: 25px;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.githubLink {
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+.githubLink:hover {
+    color: rgb(187, 187, 187);
+}
+
+.languageContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.languages {
+    display: flex;
+    column-gap: 10px;
+}
+
+.hobbyContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
