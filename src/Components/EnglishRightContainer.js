@@ -22,15 +22,19 @@ export default function EnglishRightContainer() {
             </div>
             <div className={ styles.subContainer }>
                 <h2 className={ styles.title }>Work experience</h2>
+                <text className={ styles.subTitle }>Kaskipuu Oy 05/2021 - 08/2021</text>
+                <text className={ styles.Padding }>Production worker</text>
                 <text className={ styles.subTitle }>Pellopuu Oy 05/2018 - 08/2018</text>
-                <text className={ styles.Padding }>Summer trainee</text>
+                <text className={ styles.Padding }>Production worker</text>
                 <text className={ styles.subTitle }>Metsähallitus Metsätalous Oy 06/2017</text>
                 <text>Tree planter</text>
             </div>
             <div className={ styles.subContainer }>
-                <h2 className={ styles.title }>Technical skills</h2>
-                <text>C++, C, Java, Javascript</text>
-                <text>React.js, Node.js, Spring, Git, SQL</text>
+                <h2 className={ styles.title }>Skills and abilities</h2>
+                <text>JavaScript, Java, C++, C</text>
+                <text>React.js, Node.js, Spring</text>
+                <text>Git, MySQL</text>
+                <text>Problem solving skills</text>
             </div>
         </div>
     )
