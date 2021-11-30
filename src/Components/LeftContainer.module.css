@@ -29,7 +29,48 @@
     padding-bottom: 13px;
 }
 
+<<<<<<< HEAD
 .image {
     width: 100%;
     border-radius: 100%;
+=======
+.logoContainer {
+    display: flex;
+    column-gap: 5px;
+}
+
+.logo {
+    font-size: 25px;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.githubLink {
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+.githubLink:hover {
+    color: rgb(187, 187, 187);
+}
+
+.languageContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.languages {
+    display: flex;
+    column-gap: 10px;
+}
+
+.hobbyContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+>>>>>>> df7f59bd8e71c60279a5a50901b847f47908751b
 }
