@@ -6,6 +6,7 @@ export default function FinnishLeftContainer() {
     return (
         <div className={ styles.leftcontainer }>
             <h1>Matias Koivumaa</h1>
+            <img className={ styles.image } src="1637757689339.jpg" alt="portrait"></img>
             <div className={ styles.subContainer }>
                 <h2 className={ styles.title }>Yhteystiedot</h2>
                 <text className={ styles.subTitle }>Osoite:</text>

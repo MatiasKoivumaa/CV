@@ -12,6 +12,7 @@
 }
 
 .leftcontainer {
+    padding-top: 10px;
     padding-left: 5%;
     padding-right: 5%;
     width: 35%;
@@ -26,4 +27,9 @@
 
 .Padding {
     padding-bottom: 13px;
+}
+
+.image {
+    width: 100%;
+    border-radius: 100%;
 }
