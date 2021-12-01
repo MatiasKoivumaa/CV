@@ -7,11 +7,10 @@ export default function EnglishRightContainer() {
         <div className={ styles.rightcontainer }>
             <div>
                 <h2 className={ styles.title }>Profile</h2>
-                <p>
-                    I am currently studying computer science and doing very well in 
-                    my studies, I am passionate about electronics and software 
-                    development. I am ambitious and learn new things quickly. I want 
-                    to work with interesting and challenging problems.
+                <p className={ styles.profile }>
+                    Determined software development oriented future information technology professional.
+                    Genuinely interested in developing software development skills and learning new things. 
+                    Motivated and proactive team player who wants to put learned skills to use in working life.
                 </p>
             </div>
             <div className={ styles.subContainer }>
