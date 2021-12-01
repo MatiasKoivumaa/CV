@@ -11,7 +11,7 @@ export default function FinnishLeftContainer() {
 
     return (
         <div className={ styles.leftcontainer }>
-            <h1>Matias Koivumaa</h1>
+            <h1 className={ styles.name }>Matias Koivumaa</h1>
             <img className={ styles.image } src="1637757689339.jpg" alt="portrait"></img>
             <div className={ styles.subContainer }>
                 <h2 className={ styles.title }>Yhteystiedot</h2>
@@ -49,11 +49,11 @@ export default function FinnishLeftContainer() {
                 <h2 className={ styles.title }>Kielet</h2>
                 <div className={ styles.languageContainer }>
                     <div className={ styles.languages }>
-                        <Flag code="fi" height="25" />
+                        <Flag code="fi" height="22" />
                         <text>Suomi</text>
                     </div>
                     <div className={ styles.languages }>
-                        <Flag code="gb" height="20" />
+                        <Flag code="gb" height="18" />
                         <text>Englanti</text>
                     </div>
                 </div>
