@@ -7,17 +7,16 @@ export default function FinnishRightContainer() {
         <div className={ styles.rightcontainer }>
             <div>
                 <h2 className={ styles.title }>Profiili</h2>
-                <p>
-                    Opiskelen tällä hetkellä tietojenkäsittelytiedettä ja pärjään siinä erittäin hyvin
-                    Opintojeni aikana olen intohimoinen elektroniikasta ja ohjelmistoista
-                    kehitystä. Olen kunnianhimoinen ja opin uusia asioita nopeasti. Haluan
-                    työskennellä mielenkiintoisten ja haastavien ongelmien kanssa.
+                <p className={ styles.profile }>
+                    Määrätietoinen ohjelmistokehitykseen suuntautunut tietotekniikan tuleva ammattilainen.
+                    Aidosti kiinnostunut kehittämään omaa osaamistaan ja oppimaan uutta. Motivoitunut ja oma-aloitteinen
+                    tiimipelaaja, joka haluaa päästä käyttämään opittuja taitoja työelämässä.
                 </p>
             </div>
             <div className={ styles.subContainer }>
                 <h2 className={ styles.title }>Koulutus</h2>
                 <text className={ styles.subTitle }>Oulun ammattikorkeakoulu | 08/2020 -</text>
-                <text className={ styles.Padding }>Insinööri(AMK), Tieto- ja viestintätekniikka</text>
+                <text className={ styles.Padding }>Insinööri (AMK), Tieto- ja viestintätekniikka</text>
                 <text className={ styles.subTitle }>Pellon Lukio | 08/2015 - 05/2018</text>
             </div>
             <div className={ styles.subContainer }>

@@ -1,9 +1,10 @@
 .rightcontainer {
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 10px;
+    padding-top: 18px;
     width: 65%;
     background-color: whitesmoke;
+    font-size: 17px;
 }
 
 .subContainer {
@@ -13,7 +14,7 @@
 
 .title {
     border-bottom: 2px solid rgb(167, 167, 167);
-    font-size: 20px;
+    font-size: 21px;
 }
 
 .subTitle {
@@ -22,4 +23,8 @@
 
 .Padding {
     padding-bottom: 13px;
+}
+
+.profile {
+    font-size: 19px;
 }
