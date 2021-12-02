@@ -19,9 +19,9 @@
 }
 
 .Buttons {
-    font-size: 21px;
+    font-size: 1.5em;
     font-weight: 600;
-    padding: 10px;
+    padding: 10%;
     border: rgb(132, 180, 196) 3px solid;
     border-radius: 10px;
     background-color: rgb(226, 247, 255);
